@@ -1,0 +1,25 @@
+Kraken Core
+***********
+
+The Core package contains modules and sub-packages that make up the Kraken Framework.
+
+
+Modules
+=======
+
+.. toctree::
+   :maxdepth: 2
+   :titlesonly:
+
+   /python/core/configs/config
+   /python/core/io/io
+   /python/core/maths/maths
+
+
+Module Methods
+==============
+
+.. automethod:: kraken.core.getVersion
+
+
+.. include:: ../../footer.rst
