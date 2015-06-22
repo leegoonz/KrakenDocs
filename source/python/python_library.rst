@@ -19,7 +19,5 @@ Modules
    /python/core/profiler
    /python/core/synchronizer
 
-   /python/core/maths/maths
-
 
 .. include:: ../footer.rst

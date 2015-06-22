@@ -14,6 +14,7 @@ Modules
    /python/core/configs/config
    /python/core/io/io
    /python/core/maths/maths
+   /python/core/objects/objects
 
 
 Module Methods
