@@ -13,8 +13,9 @@ Core
    :maxdepth: 1
    :titlesonly:
 
-   /kl/KrakenSolver
-   /kl/KrakenSolverArg
+   /kl/solvers/kraken_solver
+   /kl/solvers/kraken_arg
+
 
 Solvers
 =======
@@ -27,6 +28,8 @@ Solvers
    /kl/solvers/kraken_multiposecon_solver
    /kl/solvers/kraken_posecon_solver
    /kl/solvers/kraken_rigscale_solver
+   /kl/solvers/nbone_ik_solver
+   /kl/solvers/twobone_ik_solver
 
 
 .. include:: ../footer.rst

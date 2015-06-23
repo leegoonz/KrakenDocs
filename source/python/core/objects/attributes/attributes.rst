@@ -1,5 +1,5 @@
 Attributes
-*******
+**********
 
 
 Modules
@@ -28,4 +28,4 @@ Module Methods
    :local:
 
 
-.. include:: ../../../footer.rst
+.. include:: ../../../../footer.rst

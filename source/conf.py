@@ -300,3 +300,7 @@ def skip(app, what, name, obj, skip, options):
 
 def setup(app):
     app.connect("autodoc-skip-member", skip)
+    from FabricEngine.Pygments.KLLexer import KLLexer
+    from FabricEngine.Sphinx.KL import KLDomain
+    app.add_lexer('kl', KLLexer)
+    app.add_domain(KLDomain)

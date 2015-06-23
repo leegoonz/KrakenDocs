@@ -14,7 +14,7 @@ Modules
 
    /python/core/objects/attributes/attributes
    /python/core/objects/components/components
-   /python/core/objects/contraints/contraints
+   /python/core/objects/constraints/constraints
    /python/core/objects/operators/operators
 
    /python/core/objects/component_group
