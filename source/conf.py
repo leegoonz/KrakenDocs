@@ -35,7 +35,8 @@ sys.path.insert(0, 'D:/fabric/FabricEngine-1.15.2-Windows-x86_64/Python/2.7')
 extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.ifconfig',
-    'sphinx.ext.intersphinx'
+    'sphinx.ext.intersphinx',
+    'lowdown'
 ]
 
 # Add any paths that contain templates here, relative to this directory.

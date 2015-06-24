@@ -11,6 +11,8 @@ Getting Started
 
    license
    installation
+   integrations
+   releases
 
 
 KL Guide

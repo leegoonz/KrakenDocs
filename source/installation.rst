@@ -11,10 +11,10 @@ Environment Variables
 
 .. glossary::
 
-   KRAKEN_DIR
+   :envvar: KRAKEN_DIR
       Base directory where Kraken is installed
 
-   KRAKEN_COMPONENTS
+   :envvar: KRAKEN_COMPONENTS
       Root python paths to custom components
 
 

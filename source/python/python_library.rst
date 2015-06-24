@@ -14,6 +14,7 @@ Modules
    :titlesonly:
 
    /python/core/core
+   /python/plugins/plugins
    /python/core/builder
    /python/core/kraken_system
    /python/core/profiler

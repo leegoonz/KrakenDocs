@@ -12,8 +12,7 @@ studios, per project or even per character if desired.
 
 .. seealso::
 
-    :doc:`../builder`
-
+    :py:class:`kraken.core.builder`
 
 
 .. contents:: Usage Documentation
