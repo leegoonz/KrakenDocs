@@ -1,8 +1,11 @@
+============
 Installation
-************
+============
 
+
+********
 Download
-========
+********
 Get the latest version of Kraken here:
 
 

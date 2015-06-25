@@ -1,5 +1,7 @@
+============
 Integrations
-************
+============
+
 
 Kraken is able to be integrated with any 3D DCC that supports Fabric Engine and Python.
 

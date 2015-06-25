@@ -1,5 +1,6 @@
 Synchronizer
-============
+************
+
 
 Contents:
 

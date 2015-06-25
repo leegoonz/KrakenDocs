@@ -11,10 +11,16 @@ Modules
    :maxdepth: 2
    :titlesonly:
 
+   /python/core/builder
+   /python/core/kraken_system
+   /python/core/profiler
+   /python/core/synchronizer
+
    /python/core/configs/config
    /python/core/io/io
    /python/core/maths/maths
    /python/core/objects/objects
+
 
 
 Module Methods

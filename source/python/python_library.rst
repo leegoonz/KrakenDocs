@@ -14,11 +14,9 @@ Modules
    :titlesonly:
 
    /python/core/core
+   /python/helpers/helpers
    /python/plugins/plugins
-   /python/core/builder
-   /python/core/kraken_system
-   /python/core/profiler
-   /python/core/synchronizer
+   /python/ui/ui
 
 
 .. include:: ../footer.rst
