@@ -1,6 +1,6 @@
-################
+================
 Maya Integration
-################
+================
 
 The Maya integration is composed of the Kraken plug-in for Maya but also the Maya plug-in that adds a menu entry for launching the Kraken UI.
 

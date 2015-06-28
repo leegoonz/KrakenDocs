@@ -13,8 +13,27 @@ Getting Started
 
    license
    installation
-   integrations
    releases
+
+
+Integrations
+============
+
+.. toctree::
+   :maxdepth: 2
+   :titlesonly:
+
+   integrations
+
+
+User Interface
+==============
+
+.. toctree::
+   :maxdepth: 2
+   :titlesonly:
+
+   user_interface
 
 
 KL Guide
