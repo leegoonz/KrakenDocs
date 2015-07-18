@@ -4,6 +4,7 @@ Installation
 
 .. contents::
    :local:
+
 |
 
 Download
@@ -24,6 +25,10 @@ Environment Variables
 
    KRAKEN_COMPONENTS
       Root python paths to custom components
+
+   KRAKEN_LOAD_MENU
+      If set to False, the Kraken Menu will not load in the DCC's. However the commands will still be registered.
+
 |
 
 Example Launcher Scripts
