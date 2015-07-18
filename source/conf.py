@@ -20,9 +20,6 @@ import shlex
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #sys.path.insert(0, os.path.abspath('.'))
-sys.path.insert(0, 'D:/dev/kraken/Python')
-sys.path.insert(0, 'D:/fabric/FabricEngine-1.15.2-Windows-x86_64/bin')
-sys.path.insert(0, 'D:/fabric/FabricEngine-1.15.2-Windows-x86_64/Python/2.7')
 
 # -- General configuration ------------------------------------------------
 
@@ -36,7 +33,8 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.ifconfig',
     'sphinx.ext.intersphinx',
-    'lowdown'
+    'sphinx.ext.napoleon',
+    'lowdown',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
