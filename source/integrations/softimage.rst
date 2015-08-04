@@ -8,8 +8,13 @@ The Softimage integration is composed of the Kraken plug-in for Softimage but al
 Sections
 ========
 
-.. contents:: Usage Documentation
+.. contents::
    :local:
+
+
+PyQtForSoftimage
+----------------
+http://www.steven-caron.com/downloads/tools/PyQtForSoftimage_beta5.xsiaddon
 
 
 Softimage Workgroup & Plug-in
