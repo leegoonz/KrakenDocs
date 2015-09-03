@@ -1,14 +1,17 @@
-==============
+##############
 User Interface
-==============
+##############
 
 Kraken comes with a nodal inteface that allows for quickly prototyping rigs and re-using the configuration at a later time.
 
 .. image:: /images/Kraken_UI.jpg
 
+|
 
-UI Sections
-***********
+.. contents:: Table of Contents
+   :local:
+
+|
 
 Component Library
 =================
@@ -25,21 +28,55 @@ Graph
 The graph is where you instance components as nodes and create connections. You can only make connections between component ports which are of the same type. Only Vec3's will connect to Vec3 ports for example. You can click and drag from a label or port to another port to connect it.
 |
 
-Graph Toolbar
-=============
-The graph toolbar is where you can interact with the current graph.
+
+Menu Bar
+========
+The menu bar provides items to easily interact with the graph.
+|
+
+File Menu
+---------
+|
 
 New
    Creates a new graph flushing the current one.
 
 Save
-   Saves the current graph to a ``*.krig`` file at the specified location.
+   Saves the current graph to a ``*.krg`` file at the specified location.
 
 Load
-   Load a ``*.krig`` file into the graph as a new graph. The current graph will be cleared.
+   Load a ``*.krg`` file into the graph as a new graph. The current graph will be cleared.
+
+Close
+   Closes the UI and asks to save the current rig.
+
+
+Edit Menu
+---------
+|
+
+Copy
+   Copies the selected nodes in the graph.
+
+Paste
+   Pastes a copy of the components.
+
+Paste Connected
+   Pastes a copy of the components and keeps connections.
+
+Paste Mirrored
+   Pastes a mirroried copy of the components.
+
+Paste Mirrored Connected
+   Pastes a mirroried copy of the components and keeps connections.
 
 Rig Name
-   The name of the rig you are going to build. This will be the name that you will see on the top container node and layers.
+   Allows you to edit the rig name via a modal input box.
+
+
+Build Menu
+----------
+|
 
 Build Guide
    Builds the guide for the current graph. Each component will have it's guide structure built. From there you can manipulate the guide to match the proportions of your character.
@@ -49,22 +86,42 @@ Build Rig
 
    If you do have a guide in your scene it will synchronize the values from the scene back into the graph before building.
 
+
+Panels Menu
+-----------
+|
+
+Component Library
+   Toggles the component library to be visible.
+
+
+Help Menu
+---------
+|
+Online Help
+   Opens a browser page to the Kraken web page.
+
 |
 
 Keyboard Commands
-*****************
+=================
 |
 
 ============ =========
 Key Combo    Function
 ============ =========
 Ctrl+N       New Graph (Clears current graph)
+Ctrl+S       Save Graph
+Ctrl+L       Load Graph (Clears current graph)
 Ctrl+W       Closes the Interface
-` (Tilde)    Opens the contextual node list over the graph
-Ctrl+Tab     Toggles the Component Library
 Ctrl+C       Copy Selected Nodes
 Ctrl+V       Paste Copied Nodes
 Ctrl+Shift+V Paste Copied Nodes with connections
+Ctrl+G       Builds the Guide Rig
+Ctrl+B       Builds the Rig
+Ctrl+H       Opens the Kraken Page
+Ctrl+Tab     Toggles the Component Library
+` (Tilde)    Opens the contextual node list over the graph
 ============ =========
 
 
