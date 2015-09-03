@@ -7,6 +7,28 @@ Installation
 
 |
 
+Pre-Requisites
+**************
+* Fabric Engine 1.15.3
+* Python 2.7.x
+* PyWin32 (Softimage requirement)
+* PySide
+* PyQtForSoftimage (PySide compatible version)
+
+|
+
+Softimage Installation
+**********************
+Once the pre-requisites have been installed, you need to connect to a few workgroups.
+
+The order of the workgroups should be:
+1. Fabric Engine
+2. PyQtForSoftimage
+3. Kraken
+
+
+|
+
 Download
 ********
 Get the latest version of Kraken here:
@@ -20,10 +42,10 @@ Environment Variables
 
 .. glossary::
 
-   KRAKEN_DIR
+   KRAKEN_PATH
       Base directory where Kraken is installed
 
-   KRAKEN_COMPONENTS
+   KRAKEN_PATHS
       Root python paths to custom components
 
    KRAKEN_LOAD_MENU
