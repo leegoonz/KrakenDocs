@@ -4,35 +4,18 @@ User Interface
 
 Kraken comes with a nodal inteface that allows for quickly prototyping rigs and re-using the configuration at a later time.
 
-.. image:: /images/Kraken_UI.jpg
-
-|
-
 .. contents:: Table of Contents
    :local:
 
 |
 
-Component Library
-=================
-The component library is a list of registered components that you can instance into the graph. Using the ``KRAKEN_COMPONENTS`` environment variable will allow you to register your custom components.
+.. image:: /images/Kraken_UI.jpg
+
 |
 
-Contextual Node list
-====================
-The contextual node list reflects the component library but is a floating widget that allows you to type in the name of the component you want and create it without having the component library visible. Type the name select from the list and hit enter.
-|
-
-Graph
-=====
-The graph is where you instance components as nodes and create connections. You can only make connections between component ports which are of the same type. Only Vec3's will connect to Vec3 ports for example. You can click and drag from a label or port to another port to connect it.
-|
-
-
-Menu Bar
-========
+Menu Bar (1)
+============
 The menu bar provides items to easily interact with the graph.
-|
 
 File Menu
 ---------
@@ -50,6 +33,7 @@ Load
 Close
    Closes the UI and asks to save the current rig.
 
+|
 
 Edit Menu
 ---------
@@ -73,6 +57,7 @@ Paste Mirrored Connected
 Rig Name
    Allows you to edit the rig name via a modal input box.
 
+|
 
 Build Menu
 ----------
@@ -86,6 +71,7 @@ Build Rig
 
    If you do have a guide in your scene it will synchronize the values from the scene back into the graph before building.
 
+|
 
 Panels Menu
 -----------
@@ -94,14 +80,51 @@ Panels Menu
 Component Library
    Toggles the component library to be visible.
 
+|
 
 Help Menu
 ---------
 |
+
 Online Help
    Opens a browser page to the Kraken web page.
 
 |
+
+Config Drop Down (2)
+====================
+The config drop down allows the user to specify a configuration to use while building. Configurations allow you to customize naming, colors, and more.
+
+.. seealso:: :doc:`/python/core/configs/config`
+
+|
+
+Rig Name (3)
+============
+The rig name widget allows you to quickly change the name of the rig that you're currently working in. Double clicking on the widget displays an input box to change the name.
+
+|
+
+Component Library (4)
+=====================
+The component library is a list of registered components that you can instance into the graph. Using the ``KRAKEN_COMPONENTS`` environment variable will allow you to register your custom components.
+
+.. seealso:: :doc:`installation` for information on how to add custom components.
+
+|
+
+Contextual Node list (5)
+========================
+The contextual node list reflects the component library but is a floating widget that allows you to type in the name of the component you want and create it without having the component library visible. Type the name select from the list and hit enter.
+
+|
+
+Nodes & Graph (6)
+=================
+The graph is where you instance components as nodes and create connections. You can only make connections between component ports which are of the same type. Only Vec3's will connect to Vec3 ports for example. You can click and drag from a label or port to another port to connect it.
+
+|
+
 
 Keyboard Commands
 =================
