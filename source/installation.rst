@@ -165,7 +165,7 @@ Maya 2015
    set PYTHONPATH=%PYTHONPATH%;%FABRIC_PATH%\Python\2.7;%KRAKEN_PATH%\Python;
 
 
-   set MAYA_MODULE_PATH=%KRAKEN_PATH%\SpliceIntegrations\FabricSpliceMaya2015SP2;%KRAKEN_PATH%\DCCIntegrations\maya;
+   set MAYA_MODULE_PATH=%FABRIC_DIR%\SpliceIntegrations\FabricSpliceMaya2015SP2;%KRAKEN_PATH%\DCCIntegrations\maya;
 
    start /d "C:\Program Files\Autodesk\Maya2015\bin" maya.exe
 
