@@ -10,10 +10,10 @@ Installation
 ##############
 Pre-Requisites
 ##############
-* Fabric Engine 1.15.3
+* Fabric Engine 2.0.x
+* PySide
 * Python 2.7.x
 * PyWin32 (Softimage requirement)
-* PySide
 * PyQtForSoftimage (PySide compatible version)
 
 |
@@ -101,21 +101,17 @@ Windows Standalone
 
 ::
 
-   set FABRIC_PATH=D:\fabric\FabricEngine-1.15.3-Windows-x86_64
+   call D:\fabric\FabricEngine-2.0.1-Windows-x86_64\environment.bat
 
-   set KRAKEN_PATH=D:\dev\kraken\
 
-   set KRAKEN_PATHS=
+   set KRAKEN_PATH=D:\dev\kraken
+   set FABRIC_EXTS_PATH=%FABRIC_EXTS_PATH%;%KRAKEN_PATH%\Exts;
+   set FABRIC_DFG_PATH=%FABRIC_DFG_PATH%;%KRAKEN_PATH%\Presets\DFG;
+   set PYTHONPATH=%PYTHONPATH%;%KRAKEN_PATH%\Python;
 
-   set PATH=%FABRIC_PATH%\bin;%PATH%
+   cd /d %KRAKEN_PATH%
 
-   set FABRIC_EXTS_PATH=%FABRIC_PATH%\Exts;%FABRIC_EXTS_PATH%;%KRAKEN_PATH%\KLExts;
-
-   set PYTHONPATH=%PYTHONPATH%;%FABRIC_PATH%\Python\2.7;%KRAKEN_PATH%\Python;
-
-   cd D:/dev/kraken/Python/kraken/ui
-
-   call cmd /k "python kraken_window.py"
+   call cmd
 
 **************
 Softimage 2015
@@ -126,25 +122,19 @@ Softimage 2015
 
 ::
 
-   set FABRIC_PATH=D:\fabric\FabricEngine-1.15.3-Windows-x86_64
+   call D:\fabric\FabricEngine-2.0.1-Windows-x86_64\environment.bat
 
-   set KRAKEN_PATH=D:\dev\kraken\
-
-   set KRAKEN_PATHS=
-
-   set PATH=%FABRIC_PATH%\bin;%PATH%
-
-   set FABRIC_EXTS_PATH=%FABRIC_PATH%\Exts;%FABRIC_EXTS_PATH%;%KRAKEN_PATH%\KLExts;
-
-   set PYTHONPATH=%PYTHONPATH%;%FABRIC_PATH%\Python\2.7;%KRAKEN_PATH%\Python;
-
+   set KRAKEN_PATH=D:\dev\kraken
+   set FABRIC_EXTS_PATH=%FABRIC_EXTS_PATH%;%KRAKEN_PATH%\Exts;
+   set FABRIC_DFG_PATH=%FABRIC_DFG_PATH%;%KRAKEN_PATH%\Presets\DFG;
+   set PYTHONPATH=%PYTHONPATH%;%KRAKEN_PATH%\Python;
 
    call "C:\Program Files\Autodesk\Softimage 2015 SP1\Application\bin\XSI.bat"
 
    echo OFF
 
 *********
-Maya 2015
+Maya 2016
 *********
 |
 
@@ -152,22 +142,16 @@ Maya 2015
 
 ::
 
-   set FABRIC_PATH=D:\fabric\FabricEngine-1.15.3-Windows-x86_64
+   call D:\fabric\FabricEngine-2.0.1-Windows-x86_64\environment.bat
 
-   set KRAKEN_PATH=D:\dev\kraken\
+   set KRAKEN_PATH=D:\dev\kraken
+   set FABRIC_EXTS_PATH=%FABRIC_EXTS_PATH%;%KRAKEN_PATH%\Exts;
+   set FABRIC_DFG_PATH=%FABRIC_DFG_PATH%;%KRAKEN_PATH%\Presets\DFG;
+   set PYTHONPATH=%PYTHONPATH%;%KRAKEN_PATH%\Python;
 
-   set KRAKEN_PATHS=
+   set MAYA_MODULE_PATH=%MAYA_MODULE_PATH%;%FABRIC_DIR%\DCCIntegrations\FabricMaya2016;%KRAKEN_PATH%\DCCIntegrations\maya;
 
-   set PATH=%FABRIC_PATH%\bin;%PATH%
-
-   set FABRIC_EXTS_PATH=%FABRIC_PATH%\Exts;%FABRIC_EXTS_PATH%;%KRAKEN_PATH%\KLExts;
-
-   set PYTHONPATH=%PYTHONPATH%;%FABRIC_PATH%\Python\2.7;%KRAKEN_PATH%\Python;
-
-
-   set MAYA_MODULE_PATH=%FABRIC_DIR%\SpliceIntegrations\FabricSpliceMaya2015SP2;%KRAKEN_PATH%\DCCIntegrations\maya;
-
-   start /d "C:\Program Files\Autodesk\Maya2015\bin" maya.exe
+   start /d "C:\Program Files\Autodesk\Maya2016\bin" maya.exe
 
 
 .. include:: footer.rst
