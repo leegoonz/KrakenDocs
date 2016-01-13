@@ -44,12 +44,17 @@ Release Notes
    .. change:: new
       :tags: ui
 
+      Node color should be taken from component .py files
+
+   .. change:: new
+      :tags: ui
+
+      Add Recent Files Menu
+
    .. change:: fixed
       :tags: Maya
 
       Kraken Maya plugin auto loads matrixNodes plugin automatically now.
-
-      Node color should be taken from component .py files
 
    .. change:: fixed
       :tags: solvers
@@ -70,6 +75,11 @@ Release Notes
       :tags: ui
 
       Kraken UI Slow, and slowing the host UI
+
+   .. change:: changed
+      :tags: core
+
+      Use KRAKEN_PATH instead of KRAKEN_DIR in core and in launcher scripts.
 
    .. change:: changed
       :tags: ui
@@ -95,6 +105,12 @@ Release Notes
       :tags: ui
 
       Error message is now full length of window and stays on screen longer
+
+   .. change:: changed
+      :tags: core
+
+      Renamed KLExts and DFG folders to be consistent with how core Fabric Engine
+      nodes are organized.
 
 
 .. include:: footer.rst
