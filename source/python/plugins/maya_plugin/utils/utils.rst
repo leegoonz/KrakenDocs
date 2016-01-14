@@ -17,14 +17,12 @@ Modules
 Module Methods
 ==============
 
-.. py:method:: lockObjXfo(dccSceneItem):
-
-   Locks the dccSceneItem's transform parameters.
-
-   :param object dccSceneItem: DCC object to lock transform parameters on.
-
-   :return: True if successful.
-   :rtype: bool
+.. automodule:: kraken.plugins.maya_plugin.utils
+   :members:
+   :private-members:
+   :special-members:
+   :undoc-members:
+   :show-inheritance:
 
 
 .. contents:: Usage Documentation

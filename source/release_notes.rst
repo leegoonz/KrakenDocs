@@ -7,9 +7,14 @@ Release Notes
    :date: 2015-01-1
 
    .. change:: new
+      :tags: extras
+
+      Added sample .bat launcher files.
+
+   .. change:: new
       :tags: ui
 
-      Core graph code extracted to PyflowGraph repo and added as a sub-tree
+      Core graph code extracted to PyflowGraph repo and added as a sub-tree.
 
    .. change:: new
       :tags: ui
@@ -24,32 +29,32 @@ Release Notes
    .. change:: new
       :tags: core
 
-      Control object needs method "setShape"
+      Control object needs method "setShape".
 
    .. change:: new
       :tags: core, ui
 
-      Ability to refresh the Component list manually
+      Ability to refresh the Component list manually.
 
    .. change:: new
       :tags: ui
 
-      Use resource file for images
+      Use resource file for images.
 
    .. change:: new
       :tags: ui
 
-      Snap to Grid
+      Snap to Grid.
 
    .. change:: new
       :tags: ui
 
-      Node color should be taken from component .py files
+      Node color should be taken from component .py files.
 
    .. change:: new
       :tags: ui
 
-      Add Recent Files Menu
+      Add Recent Files Menu.
 
    .. change:: fixed
       :tags: Maya
@@ -59,22 +64,22 @@ Release Notes
    .. change:: fixed
       :tags: solvers
 
-      Spine pop fix
+      Spine pop fix.
 
    .. change:: fixed
       :tags: ui
 
-      Doing Save As doesn't update file path in title bar
+      Doing Save As doesn't update file path in title bar.
 
    .. change:: fixed
       :tags: ui
 
-      Kraken UI won't open if one kraken path not found
+      Kraken UI won't open if one kraken path not found.
 
    .. change:: fixed
       :tags: ui
 
-      Kraken UI Slow, and slowing the host UI
+      Kraken UI Slow, and slowing the host UI.
 
    .. change:: changed
       :tags: core
@@ -84,7 +89,7 @@ Release Notes
    .. change:: changed
       :tags: ui
 
-      Component Library widget to folder tree widget
+      Component Library widget to folder tree widget.
 
    .. change:: changed
       :tags: ui
@@ -104,13 +109,12 @@ Release Notes
    .. change:: changed
       :tags: ui
 
-      Error message is now full length of window and stays on screen longer
+      Error message is now full length of window and stays on screen longer.
 
    .. change:: changed
       :tags: core
 
-      Renamed KLExts and DFG folders to be consistent with how core Fabric Engine
-      nodes are organized.
+      Renamed KLExts and DFG folders to be consistent with how core Fabric Engine nodes are organized.
 
 
 .. include:: footer.rst
