@@ -1,5 +1,5 @@
-Boolean Attribute
-*****************
+Color Attribute
+***************
 
 
 .. contents:: Usage Documentation

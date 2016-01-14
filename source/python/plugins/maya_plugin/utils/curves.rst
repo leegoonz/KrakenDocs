@@ -10,6 +10,7 @@ Module Methods
 ==============
 
 .. py:method:: curveToKraken
+   :noindex:
 
    Converts a curve in Maya to a valid definition for Kraken.
 

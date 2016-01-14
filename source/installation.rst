@@ -11,7 +11,7 @@ Installation
 Pre-Requisites
 ##############
 * Fabric Engine 2.0.x
-* PySide
+* PySide 1.2.2
 * Python 2.7.x
 * PyWin32 (Softimage requirement)
 * PyQtForSoftimage (PySide compatible version)
@@ -68,22 +68,18 @@ Environment Variables
 #####################
 |
 
-.. glossary::
 
-   FABRIC_PATH
-      Base directory of the Fabric Engine Splice directory.
+.. envvar:: KRAKEN_PATH
 
-   KRAKEN_PATH
-      Base directory where Kraken is installed.
+   Base directory where Kraken is installed.
 
-   KRAKEN_PATHS
-      Paths to custom components and configs.
+.. envvar:: KRAKEN_PATHS
 
-   KRAKEN_LOAD_MENU
-      If not set to True, it will not load the menu. However it will still load the command.
+   Paths to custom components and configs.
 
-   KRAKEN_LOAD_MENU
-      If set to False, the Kraken Menu will not load in the DCC's. However the commands will still be registered.
+.. envvar:: KRAKEN_LOAD_MENU
+
+   If set to False, the Kraken Menu will not load in the DCC's. However the commands will still be registered.
 
 |
 
