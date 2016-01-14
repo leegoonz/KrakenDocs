@@ -15,6 +15,21 @@
 import sys
 import os
 import shlex
+import mock
+
+MOCK_MODULES = ['win32com',
+                'win32com.client',
+                'win32com.client.dynamic',
+                'pymel',
+                'pymel.core',
+                'pymel.util',
+                'pymel.core.datatypes',
+                'maya',
+                'Fabric',
+                'Fabric.Core']
+
+for mod_name in MOCK_MODULES:
+    sys.modules[mod_name] = mock.Mock()
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
