@@ -17,6 +17,8 @@ import os
 import shlex
 import mock
 
+os.environ['FABRIC_EXTS_PATH'] = ""
+
 MOCK_MODULES = ['win32com',
                 'win32com.client',
                 'win32com.client.dynamic',
