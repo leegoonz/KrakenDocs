@@ -12,7 +12,9 @@ Modules
    :titlesonly:
 
    /python/plugins/si_plugin/builder
+   /python/plugins/si_plugin/logger
    /python/plugins/si_plugin/synchronizer
+   /python/plugins/si_plugin/utils/utils
 
 
 Module Methods

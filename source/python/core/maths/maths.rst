@@ -12,6 +12,7 @@ Modules
    :maxdepth: 2
    :titlesonly:
 
+   /python/core/maths/color
    /python/core/maths/euler
    /python/core/maths/mat33
    /python/core/maths/mat44

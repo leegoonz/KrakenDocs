@@ -12,7 +12,9 @@ Modules
    :titlesonly:
 
    /python/plugins/maya_plugin/builder
+   /python/plugins/maya_plugin/logger
    /python/plugins/maya_plugin/synchronizer
+   /python/plugins/maya_plugin/utils/utils
 
 
 Module Methods

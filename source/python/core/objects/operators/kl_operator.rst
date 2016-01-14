@@ -1,5 +1,5 @@
-Splice Operator
-***************
+KL Operator
+***********
 
 
 .. contents:: Usage Documentation
@@ -9,7 +9,7 @@ Splice Operator
 Class Documentation
 ===================
 
-.. autoclass:: kraken.core.objects.operators.splice_operator.SpliceOperator
+.. autoclass:: kraken.core.objects.operators.kl_operator.KLOperator
     :members:
     :private-members:
     :special-members:

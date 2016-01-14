@@ -10,7 +10,8 @@ Modules
    :titlesonly:
 
    /python/core/objects/operators/operator
-   /python/core/objects/operators/splice_operator
+   /python/core/objects/operators/canvas_operator
+   /python/core/objects/operators/kl_operator
 
 
 Module Methods
