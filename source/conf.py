@@ -25,8 +25,8 @@ MOCK_MODULES = ['win32com',
                 'pymel.util',
                 'pymel.core.datatypes',
                 'maya',
-                'Fabric',
-                'Fabric.Core',
+                'FabricEngine',
+                'FabricEngine.Core',
                 'PySide']
 
 for mod_name in MOCK_MODULES:
