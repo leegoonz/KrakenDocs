@@ -13,6 +13,7 @@ Getting Started
 
    license
    installation
+   release_notes
 
 ############
 Integrations
