@@ -18,15 +18,4 @@ Sections
    :local:
 
 
-Tutorials
-=========
-
-.. toctree::
-   :maxdepth: 1
-   :titlesonly:
-
-   /python/tutorials/custom_components
-   /python/tutorials/scripted_builds
-
-
 .. include:: ../footer.rst

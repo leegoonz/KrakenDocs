@@ -35,6 +35,16 @@ User Interface
 
    user_interface
 
+############
+Canvas Guide
+############
+
+.. toctree::
+   :maxdepth: 2
+   :titlesonly:
+
+   /canvas/canvas_guide
+
 ########
 KL Guide
 ########
